@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestActivity">
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Outage ID" />
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Fault ID" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/outage_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Outage ID" />
+
+        <TextView
+            android:id="@+id/fault_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fault ID" />
+
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="30dp">
+
+                <TextView
+                    android:id="@+id/grid_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Grid Name" />
+
+                <TextView
+                    android:id="@+id/grid_name"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:background="@drawable/rounded_black"
+                    android:layout_marginBottom="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView1" />
+
+                <TextView
+                    android:id="@+id/feeder_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Feeder Name" />
+
+                <TextView
+                    android:id="@+id/feeder_name"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:background="@drawable/rounded_black"
+                    android:layout_marginBottom="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView2" />
+
+                <TextView
+                    android:id="@+id/substn_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Substation Name" />
+
+                <TextView
+                    android:id="@+id/substn_name"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:background="@drawable/rounded_black"
+                    android:layout_marginBottom="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView3" />
+
+                <TextView
+                    android:id="@+id/dt_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DT Name" />
+
+                <TextView
+                    android:id="@+id/dt_name"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:background="@drawable/rounded_black"
+                    android:layout_marginBottom="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView4" />
+
+                <TextView
+                    android:id="@+id/element_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Effected element" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/problem_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Effected problem" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/person_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Authorised person" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/remarks_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Effected element" />
+
+
+            </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
